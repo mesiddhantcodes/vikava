@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Galindo";
+  src: url("/fonts/lasthashtag/galindo-regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter18pt";
+  src: url("/fonts/lasthashtag/inter_18pt-medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter18ptSemi";
+  src: url("/fonts/lasthashtag/inter_18pt-semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+
+.page-lasthashtag {
+  --font-body: "Inter18pt", sans-serif;
+  --font-heading: "Galindo", sans-serif;
+}
+
+.page-lasthashtag h1 {
+  font-family: var(--font-heading);
+}
+
+.page-lasthashtag p {
+  font-family: var(--font-body);
+}

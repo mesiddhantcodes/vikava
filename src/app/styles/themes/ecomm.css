@@ -1,0 +1,33 @@
+/* src/app/styles/ecomm.css */
+
+/* Utilities that map to font-family + weight; use these as className values */
+.clashdisplay-500 {
+  font-family: var(--font-clashdisplay);
+  font-weight: 500;
+}
+
+.clashdisplay-600 {
+  font-family: var(--font-clashdisplay);
+  font-weight: 600;
+}
+
+/* Boldonse (regular 400) */
+.boldonse-400 {
+  font-family: var(--font-boldonse);
+  font-weight: 400;
+}
+
+/* MeowScript (script) */
+.meowscript-400 {
+  font-family: var(--font-meowscript);
+  font-weight: 400;
+}
+
+/* Example color utility for ecomm */
+.page-ecomm .secondary {
+  color: #8702ef;
+}
+/* Example color utility for ecomm */
+.page-ecomm .primary {
+  color: #f8fcf7;
+}

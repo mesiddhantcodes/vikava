@@ -1,0 +1,21 @@
+/* mac.css */
+
+.hooskaichamfered {
+  font-family: var(--font-hooskaichamfered);
+}
+
+.spacegrotesk-regular {
+  font-family: var(--font-spacegrotesk-regular);
+  font-weight: 400;
+}
+
+.spacegrotesk-bold {
+  font-family: var(--font-spacegrotesk-bold);
+  font-weight: 700;
+}
+.body-mac {
+  background: transparent;
+  transform: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+}

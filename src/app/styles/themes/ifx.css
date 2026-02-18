@@ -1,0 +1,45 @@
+/* IFX FONT UTILITIES */
+
+/* EB Garamond */
+.garamond-400 {
+  font-family: var(--font-ebgaramond);
+  font-weight: 400;
+}
+.garamond-700 {
+  font-family: var(--font-ebgaramond);
+  font-weight: 700;
+}
+
+/* Montserrat */
+.mont-300 {
+  font-family: var(--font-montserrat);
+  font-weight: 300;
+}
+.mont-400 {
+  font-family: var(--font-montserrat);
+  font-weight: 400;
+}
+.mont-500 {
+  font-family: var(--font-montserrat);
+  font-weight: 500;
+}
+.mont-600 {
+  font-family: var(--font-montserrat);
+  font-weight: 600;
+}
+
+/* Page wrapper */
+.page-ifx {
+  /* Add IFX-specific colors later if needed */
+}
+
+
+/* Hide scrollbar but keep scroll */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE & Edge */
+  scrollbar-width: none;     /* Firefox */
+}

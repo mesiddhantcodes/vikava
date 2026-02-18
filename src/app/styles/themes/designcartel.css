@@ -1,0 +1,12 @@
+.absans-400 {
+  font-family: var(--font-absans-regular);
+  font-weight: 400;
+}
+
+.karantina-400 {
+  font-family: var(--font-karantina-regular);
+  font-weight: 400;
+}
+/* page-scoped helpers (optional) */
+.page-designcartel .primary { color: #0F172A; }   /* example */
+.page-designcartel .accent  { color: #BE1611; }   /* example */

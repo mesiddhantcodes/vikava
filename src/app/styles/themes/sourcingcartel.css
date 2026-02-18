@@ -1,0 +1,39 @@
+/* =============================
+   SOURCING CARTEL FONTS
+   ============================= */
+
+/* Font utilities */
+.page-sourcingcartel .aileron-regular {
+  font-family: var(--font-aileron-regular);
+  font-weight: 400;
+}
+
+.page-sourcingcartel .aileron-bold {
+  font-family: var(--font-aileron-bold);
+  font-weight: 700;
+}
+
+.page-sourcingcartel .alumnisans-bold {
+  font-family: var(--font-alumnisans-bold);
+  font-weight: 700;
+}
+
+.page-sourcingcartel .bespokestencil-medium {
+  font-family: var(--font-bespokestencil-medium);
+  font-weight: 500;
+}
+
+/* =============================
+   COLORS (optional utilities)
+   ============================= */
+.page-sourcingcartel .secondary {
+  color: #be1611;
+}
+
+.page-sourcingcartel .primary {
+  color: #f5f5f5;
+}
+
+.page-sourcingcartel .third {
+  color: #1D1D1F;
+}

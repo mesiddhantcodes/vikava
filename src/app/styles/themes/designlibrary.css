@@ -1,0 +1,35 @@
+/* DESIGN LIBRARY FONT UTILITIES */
+
+.monasans-400 {
+  font-family: var(--font-monasans);
+  font-weight: 400;
+}
+
+.monasans-500 {
+  font-family: var(--font-monasans);
+  font-weight: 500;
+}
+
+.monasans-600 {
+  font-family: var(--font-monasans);
+  font-weight: 600;
+}
+
+.monasans-700 {
+  font-family: var(--font-monasans);
+  font-weight: 700;
+}
+
+
+/* OPTIONAL COLOR UTILITIES */
+.page-designlibrary .primary {
+  color: #0F0E0E;
+}
+
+.page-designlibrary .secondary {
+  color: #BE1611;
+}
+
+.page-designlibrary .muted {
+  color: #888888;
+}

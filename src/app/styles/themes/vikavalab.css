@@ -1,0 +1,44 @@
+
+
+
+.barlow-condensed-extrabold {
+  font-family: var(--font-barlow-condensed-extrabold);
+  font-weight: 800;
+}
+.big-shoulders-black {
+  font-family: var(--font-big-shoulders-black);
+  font-weight: 900;
+}
+
+.poppins-bold {
+  font-family: var(--font-poppins-bold);
+  font-weight: 700;
+}
+
+.poppins-medium {
+  font-family: var(--font-poppins-medium);
+  font-weight: 500;
+}
+
+.dot-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.dot-grid__wrap {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.dot-grid__canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}

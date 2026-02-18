@@ -1,0 +1,90 @@
+/* geist bold (700) */
+.geist-bold {
+  font-family: var(--font-geist-bold);
+  font-weight: 900;
+}
+
+/* geist medium (500) */
+.geist-medium {
+  font-family: var(--font-geist-medium);
+  font-weight: 500;
+}
+
+/* geist semibold (600) */
+.geist-semibold {
+  font-family: var(--font-geist-semibold);
+  font-weight: 600;
+}
+
+/* great vibes regular (400) */
+.greatvibes-regular {
+  font-family: var(--font-greatvibes-regular);
+  font-weight: 400;
+}
+
+.parallax {
+  position: relative;
+  overflow: hidden;
+}
+
+.scroller {
+  display: flex;
+  white-space: nowrap;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 2.25rem;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
+  align-items: center;
+}
+
+.scroller span {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px; /* spacing between items */
+}
+
+/* Image-specific */
+.scroller-image {
+  display: block;
+  width: 220px; /* default width, overridden inline by component props */
+  height: 140px; /* default height */
+  object-fit: cover;
+  user-select: none;
+  pointer-events: none;
+  -webkit-user-drag: none;
+}
+
+/* small screens: scale down */
+@media (min-width: 768px) {
+  .scroller {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}
+
+.scroll-stack-scroller {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: visible;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: scroll-position;
+}
+
+.scroll-stack-inner {
+  padding: 20vh 5rem 50rem;
+  min-height: 100vh;
+}
+
+.scroll-stack-card-wrapper {
+  position: relative;
+}

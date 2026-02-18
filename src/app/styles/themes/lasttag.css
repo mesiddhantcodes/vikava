@@ -1,0 +1,17 @@
+/* galindo regular */
+.galindo-regular {
+  font-family: var(--font-galindo-regular);
+  font-weight: 400;
+}
+
+/* inter medium */
+.inter-medium {
+  font-family: var(--font-inter-medium);
+  font-weight: 500;
+}
+
+/* inter semibold */
+.inter-semibold {
+  font-family: var(--font-inter-semibold);
+  font-weight: 600;
+}
