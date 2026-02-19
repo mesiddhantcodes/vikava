@@ -17,37 +17,37 @@ export default function FounderFirstHero() {
       <div
         className="
           w-full 
-          max-w-[1080px]    
+          max-w-[1080px] min-[1700px]:max-w-[1500px]
           text-center
         "
       >
         <div className="max-w-6xl mx-auto text-center">
-          <p className="leading-[1.1]">
+          <div className="leading-[1.1]">
             <BlurText
               text="Founder‑first business‑building infrastructure - clarity, governance, and execution, under one accountable partner. "
               animateBy="words"
               direction="right"
               className="
         geist-medium
-        text-[32px] md:text-[48px] lg:text-[64px]
+        text-[32px] md:text-[48px] lg:text-[64px] min-[1700px]:text-[84px]
         text-[#151518]
         inline
       "
             />
 
-            <span className="inline-block align-baseline mx-2">
+            <div className="inline-block align-baseline mx-2">
               <BlurText
                 text="Vikava Labs "
                 animateBy="words"
                 direction="right"
                 className="
           greatvibes-regular
-          text-[36px] md:text-[52px] lg:text-[72px]
+          text-[36px] md:text-[52px] lg:text-[72px] min-[1700px]:text-[96px]
           text-[#151518]
           inline
         "
               />
-            </span>
+            </div>
 
             <BlurText
               text="helps founders and operators build and scale without vendor chaos. We bring the operating layer: clear priorities, a delivery roadmap, and accountable execution pods."
@@ -55,12 +55,12 @@ export default function FounderFirstHero() {
               direction="right"
               className="
         geist-medium
-        text-[32px] md:text-[48px] lg:text-[64px]
+        text-[32px] md:text-[48px] lg:text-[64px] min-[1700px]:text-[84px]
         text-[#151518]
         inline
       "
             />
-          </p>
+          </div>
         </div>
       </div>
     </section>
