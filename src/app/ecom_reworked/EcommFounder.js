@@ -107,14 +107,14 @@ const EcommFounder = () => {
                   {/* Video container */}
                   <div
                     className="
-        relative
-        w-full
-        h-[70vh]
-        sm:h-[75vh]
-        lg:h-[520px]
-        rounded-2xl
-        overflow-hidden
-      "
+                      relative
+                      w-full
+                      h-[400px]
+                      sm:h-[450px]
+                      lg:h-[520px]
+                      rounded-2xl
+                      overflow-hidden
+                    "
                   >
                     <video
                       autoPlay

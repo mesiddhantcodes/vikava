@@ -49,7 +49,7 @@ const Herocomm = () => {
 
     return (
         <>
-            <section className='flex flex-col justify-around items-center h-screen md:min-h-screen w-full '>
+            <section className='flex flex-col justify-around items-center h-[80dvh] md:min-h-screen w-full '>
                 {/* <span className='h-[50dvh] md:h-0'></span> */}
                 <div className='w-full flex flex-col gap-5 '>
                     <span className='w-full flex flex-col relative'>

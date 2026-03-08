@@ -36,7 +36,7 @@ function CardStackSection() {
   };
 
   return (
-    <div ref={containerRef} className="relative min-h-[280vh] sm:min-h-[380vh]">
+    <div ref={containerRef} className="relative min-h-[260vh] sm:min-h-[380vh]">
       {/* Sticky viewport area */}
       <div className="sticky top-0 h-screen overflow-hidden flex flex-col">
         {/* Text Section – pinned with 100–150px gap */}
@@ -73,7 +73,7 @@ function CardStack({ scrollYProgress, cards }) {
       className="absolute inset-0 flex items-center justify-center"
       style={{ y: stackY }}
     >
-      <div className="relative w-full max-w-[90%] sm:max-w-3xl h-32 sm:h-40 md:h-48">
+      <div className="relative w-full max-w-[90%] sm:max-w-3xl h-20 sm:h-40 md:h-48 mt-[24vh] sm:mt-0">
         {cards.map((card, index) => (
           <Card
             key={card.id}
